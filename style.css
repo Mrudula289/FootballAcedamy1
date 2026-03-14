@@ -22,16 +22,16 @@ body{
     height: 726px;
     width: 1250px;
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .MainHeader h1{
-    font-size: 130px;
+    font-size: 110px;
     font-weight: 700;
     font-style: bold;
     line-height: 90%;
     color: white;
+    margin-left: 100px;
+    margin-top: 200px;
     font-family: Saira Condensed;
 
    
@@ -152,3 +152,20 @@ margin-left: 100px;
     margin-top: 100px;
     margin-left: 80px;
 }
+.coach h1{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50%;
+    font-family: Saira Condensed;
+    margin-left: 94px;
+}
+    
+.coachInfo h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 50%;
+    font-family: Saira Condensed;
+    margin-left: 94px;
+    color: var(--maroonColor);
+}
+
