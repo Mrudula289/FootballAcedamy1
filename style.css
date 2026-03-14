@@ -4,6 +4,7 @@
 }
 body{
    background-color: #cbc6c6;
+   width: 100%;
 }
 .maroonColor{
     color: var(--maroonColor);
@@ -19,12 +20,11 @@ body{
     background-size: cover;
     background-position: center;
     height: 726px;
-    width: 1280px;
+    width: 1250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 
 .MainHeader h1{
     font-size: 130px;
@@ -38,17 +38,17 @@ body{
 }
 .picture1{
     position: absolute;
-    width: 550px;
-    height: 391px;
+    width: 500px;
+    height: 350px;
     top: 875px;
-    left: 162px;
+    left: 60px;
 }
 .MainContentText{
     position: absolute;
-    width: 483px;
+    width: 600px;
     height: 216px;
     top: 1025px;
-    left: 827px;
+    left: 650px;
     font-size: 16px;
     font-weight: 400;
     line-height: 170%;
@@ -58,6 +58,44 @@ body{
     color: var(--GrayColor);
 
 }
+.MainContentText1{
+    position: absolute;
+    width: 600px;
+    height: 216px;
+    top: 1150px;
+    left: 650px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: inter;
+    font-style: regular;
+    letter-spacing: 0%;
+    color: var(--GrayColor);
+
+}
+.coaches{
+padding:80px 0;
+}
+
+.coach{
+display:flex;
+align-items:center;
+margin-bottom:40px;
+gap:20px;
+}
+
+.coach img{
+width:400px;
+height:400px;
+border-radius:50%;
+margin-left: 40px;
+}
+.coach p{
+width: 400px;
+font-size: 16px;
+margin-left: 100px;
+}
+
 .logo img{
     width: 256.2420642260643px;
     height: 183.4px;
@@ -65,4 +103,52 @@ body{
     left: -57.59px;
     rotate: -56 deg;
   
+}
+.row h2{
+    border-left: 5px solid var(--maroonColor);
+    padding-left: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: Saira Condensed;
+    margin-left: 640px;
+    margin-top: 145px;
+}
+.blackSection{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blackSection h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 100%;
+    font-family: Saira Condensed;
+    text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 800px;
+}
+.blackSection h5{
+    color: #FFFFFF80;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: inter;
+    font-style: regular;
+    letter-spacing: 0%;
+    margin-top: 170px;
+}
+.picture2{
+    height: 1394px;
+    margin-top: 100px;
+    margin-left: 80px;
 }
