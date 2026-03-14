@@ -1,0 +1,68 @@
+:root{
+    --maroonColor:#B53232;
+    --GrayColor:#656565;
+}
+body{
+   background-color: #cbc6c6;
+}
+.maroonColor{
+    color: var(--maroonColor);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.MainHeader{
+   background-image: url('./Assets/header.png');
+    background-size: cover;
+    background-position: center;
+    height: 726px;
+    width: 1280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.MainHeader h1{
+    font-size: 130px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 90%;
+    color: white;
+    font-family: Saira Condensed;
+
+   
+}
+.picture1{
+    position: absolute;
+    width: 550px;
+    height: 391px;
+    top: 875px;
+    left: 162px;
+}
+.MainContentText{
+    position: absolute;
+    width: 483px;
+    height: 216px;
+    top: 1025px;
+    left: 827px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: inter;
+    font-style: regular;
+    letter-spacing: 0%;
+    color: var(--GrayColor);
+
+}
+.logo img{
+    width: 256.2420642260643px;
+    height: 183.4px;
+    top: -51.68px;
+    left: -57.59px;
+    rotate: -56 deg;
+  
+}
