@@ -169,3 +169,65 @@ margin-left: 100px;
     color: var(--maroonColor);
 }
 
+.player{
+    width: 1240px;
+    height: 850px;
+    margin-top: 100px;
+    background-image: url("./assets/Rectangle\ 6.png");
+    background-size: cover;
+     background-position: center;
+}
+.player h2{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 120%;
+    font-family: Saira Condensed;
+    margin-left: 200px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    color: #FFFFFF80;
+}
+.player h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 0%;
+    font-family: Saira Condensed;
+    margin-left: 190px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    color:#FFFFFF;
+}
+
+
+.players-container{
+    display: flex;
+    width: 100px;
+    gap: 20px;
+    position: absolute;
+
+}
+.player span{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 170%;
+    font-family: inter;
+    font-style: regular;
+    letter-spacing: 0%;
+    color: #FFFFFF80;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+.player img{
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    margin-left: 400px;
+
+   
+}
+.side{
+    border-left: 5px solid var(--maroonColor);
+}
