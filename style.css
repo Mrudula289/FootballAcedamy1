@@ -9,11 +9,49 @@ body{
 .maroonColor{
     color: var(--maroonColor);
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+position:absolute;
+top:0;
+width:100%;
+}
+
+/* logo */
+
+.logo img{
+width:120px;
+}
+
+/* menu */
+
+.menu{
+display:flex;
+list-style:none;
+gap:40px;
+}
+
+.menu li a{
+text-decoration:none;
+color:white;
+font-weight:600;
+letter-spacing:1px;
+}
+/* HOVER EFFECT */
+
+nav ul li a:hover{
+color:#e63946;
 }
 .MainHeader{
    background-image: url('./Assets/header.png');
@@ -96,14 +134,7 @@ font-size: 16px;
 margin-left: 100px;
 }
 
-.logo img{
-    width: 256.2420642260643px;
-    height: 183.4px;
-    top: -51.68px;
-    left: -57.59px;
-    rotate: -56 deg;
-  
-}
+
 .row h2{
     border-left: 5px solid var(--maroonColor);
     padding-left: 20px;
@@ -155,7 +186,7 @@ margin-left: 100px;
 .coach h1{
     font-size: 35px;
     font-weight: 700;
-    line-height: 50%;
+    line-height: 120%;
     font-family: Saira Condensed;
     margin-left: 94px;
 }
@@ -163,7 +194,8 @@ margin-left: 100px;
 .coachInfo h4{
     font-size: 24px;
     font-weight: 700;
-    line-height: 50%;
+    line-height: 120%;
+   margin-bottom: 20px;
     font-family: Saira Condensed;
     margin-left: 94px;
     color: var(--maroonColor);
@@ -176,58 +208,56 @@ margin-left: 100px;
     background-image: url("./assets/Rectangle\ 6.png");
     background-size: cover;
      background-position: center;
-}
-.player h2{
-    font-size: 45px;
-    font-weight: 700;
-    line-height: 120%;
-    font-family: Saira Condensed;
-    margin-left: 200px;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 150px;
-    color: #FFFFFF80;
-}
-.player h1{
-    font-size: 70px;
-    font-weight: 700;
-    line-height: 0%;
-    font-family: Saira Condensed;
-    margin-left: 190px;
-    margin-top: 20px;
-    justify-content: center;
-    align-items: center;
-    color:#FFFFFF;
-}
-
-
-.players-container{
     display: flex;
-    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.player-text h4{
+color:#f7b2b2;
+width: 400px;
+height: 94px;
+
+}
+
+.player-text h1{
+font-size:40px;
+margin-bottom:15px;
+}
+
+.stats span{
+margin-right:20px;
+color:#5ec6ff;
+font-weight:bold;
+}
+
+.player-img img{
+height:250px;
+}
+.photos3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
-    position: absolute;
+    margin-top: 100px;
+}
+.box1 img{
+    width: 530px;
+    height: 380px;
+    top: 4483px;
+    left: 414px;
+    z-index: 1;
+}
+.box2 img{
+    width: 530px;
+    height: 380px;
+    top: 4483px;
+    left: 414px;
+}
+.box3 img{
+    width: 530px;
+    height: 380px;
+    top: 4419px;
+    left: 162px;
+}
 
-}
-.player span{
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 170%;
-    font-family: inter;
-    font-style: regular;
-    letter-spacing: 0%;
-    color: #FFFFFF80;
-    margin-left: 230px;
-    margin-top: 20px;
-}
-.player img{
-    width: 900px;
-    height: 900px;
-    border-radius: 50%;
-    margin-left: 400px;
 
-   
-}
-.side{
-    border-left: 5px solid var(--maroonColor);
-}
